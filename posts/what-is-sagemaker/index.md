@@ -21,12 +21,13 @@ Machine learning models can provide powerful insights, but developing them requi
 
 Introduction
 
-Give a brief overview of machine learning and explain why it is important for businesses today. Introduce Amazon Sagemaker as a managed service for building, training, and deploying machine learning models quickly and easily.
+Machine learning is transforming industries, but it can be challenging for companies to build, train, and deploy ML models. That's where Amazon SageMaker comes in. SageMaker is a fully managed AWS service that makes machine learning much more accessible for everyday developers. In this post, we'll explore how SageMaker makes it easier to leverage the power of ML.
+
 
 ### What is Amazon Sagemaker?
 
-* Explain that Sagemaker is a fully managed service on AWS that enables developers and data scientists to build, train, and deploy machine learning models at scale.
-* Mention that Sagemaker removes the complexity of each step of the machine learning workflow - data prep, model training, model tuning, deployment, and monitoring.
+Amazon SageMaker is an aws fully managed machine learning service that makes it easy for developers to build, train and deploy scalable machine learning models quickly in the cloud. SageMaker removes most of the difficulties associated with turning raw data into finished machine learning models and ready for production. SageMaker gives developers the ability to skip the manual process of setting up servers and clusters to train models. Instead, developers can easily provide training data, choose an algorithm, and let SageMaker handle the rest on a fully managed infrastructure. In addition to that developers can deploy their models with a single click to perform predictions in real-time. SageMaker reduces the complexity of developing impactful machine learning models by providing end-to-end capabilities of machine learning workflow. Companies are using SageMaker to solve challenging problems in areas like predictive maintenance, personalized product recommendations, and fraud detection. As machine learning keeps evolving, SageMaker provides an easier on-ramp for organizations to build machine learning processes and products.
+
 
 ### Key Capabilities of Sagemaker
 
