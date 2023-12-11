@@ -45,7 +45,8 @@ You can use SageMaker to easily deploy machine learning models for real-time or 
 
 ### Monitoring models
 
-SageMaker provides tools to monitor the health and performance of machine learning models deployed as endpoints. Developers can enable continuous monitoring on a model endpoint which will track key performance metrics like invocation count, latency, and memory usage. This allows detecting when a model endpoint is unhealthy or performing poorly.
+SageMaker provides tools to monitor the health and performance of machine learning models deployed as endpoints. Developers can enable continuous monitoring on a model endpoint which will track key performance metrics like invocation count, latency, and memory usage. Basically, it automatically collects performance metrics on your endpoints - things like how many requests they are serving, any errors or failures, how long each request takes, etc. All this data gets sent to CloudWatch. So then you can check out the metrics on CloudWatch dashboards and graphs. You can set up alarms as well, so you get notified if something looks off or crosses a threshold. This makes it a lot easier to monitor your models and catch any issues quickly. You can see how they are performing over time and spot problems before your customers even notice them. Plus, you get access to detailed request logs too. So, you can really drill down into any specific requests that looked weird in the metrics and debug what went wrong.
+
 
 ### Build machine learning pipelines with drag and drop
 
