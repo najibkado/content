@@ -40,7 +40,8 @@ SageMaker offers a fully-managed machine learning platform to help engineers and
 
 ### Deploying models
 
-You can use SageMaker to easily deploy machine learning models for real-time or batch predictions. Once your model is trained in SageMaker, it can be deployed to create an endpoint. This endpoint is a REST API that receives prediction requests, runs the request through the deployed model, and returns predictions.
+You can use SageMaker to easily deploy machine learning models for real-time or batch predictions. Once the model is trained, developers create an endpoint configuration that specifies where the trained model artifacts are stored in S3. You can indicate what type of instance and number of instances are needed to host the model. SageMaker then launches the endpoint and loads the model onto these instances. An endpoint URL is created that allows sending prediction requests to the model. To make predictions, the developer sends requests to the endpoint URL with JSON data payloads. The model loaded on the endpoint processes this data, makes predictions/inferences, and returns responses. CloudWatch logs collect metrics on usage and performance. Developers benefits from simplified deployment, auto-scaling based on usage, monitoring dashboards, A/B testing capabilities, integration with other AWS services, and automated retraining workflows to keep models accurate over time.
+
 
 ### Monitoring models
 
