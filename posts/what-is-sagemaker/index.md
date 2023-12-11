@@ -31,7 +31,8 @@ SageMaker makes model building easier by providing pre-built containers and algo
 
 ### Managing machine learning workflows
 
-SageMaker Studio provides an integrated web environment for end-to-end ML workflows. This will let you to easily setup projects, track experiments, organize models and data, visualize results, and collaborate. 
+SageMaker Studio provides an integrated web environment for end-to-end ML workflows. This will let you to easily setup projects, track experiments, organize models and data, visualize results, and collaborate. SageMaker Studio gives you a single pane of glass for an end-to-end machine learning workflow. These involves the provision of an integrated development environment (IDE) which will allow you to access jupyter notebooks, build and debug models, and more from a single interface. In addition, SageMaker Studio manages the ML pipelines for you which will allow you to visually create, execute, and track end-to-end ML workflows with components such as data processing, feature engineering, model training and more. SageMaker Studio also integrates with other AWS Services as well as other third-party services like github to allow you to manage you model code and track model versions. Finally, SageMaker Studio has more capabilities you can explore [here](https://aws.amazon.com/sagemaker/studio/?nc=sn&loc=1), and in summary SageMaker Studio simplifies and accelerates the machine learning workflow for developers and data scientists. It offers a versatile visual interface with everything needed for ML projects integrated in a single platform. By handling infrastructure and operations in the cloud backend, Studio allows users to focus on high-value model development, experimentation, and deployment.
+
 
 ### Training models
 
